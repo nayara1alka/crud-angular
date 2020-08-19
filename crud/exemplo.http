@@ -1,0 +1,25 @@
+http://localhost:3000/clientes
+
+###
+GET http://localhost:3000/clientes
+
+
+###
+POST http://localhost:3000/clientes HTTP/1.1
+content-type: application/json
+
+{
+    "nome": "Joao Pietro"
+}
+
+###
+PUT http://localhost:3000/clientes/2 HTTP/1.1
+content-type: application/json
+
+{
+    "nome": "Pedro Batista"
+}
+
+###
+DELETE  http://localhost:3000/clientes/3
+
